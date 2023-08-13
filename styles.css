@@ -1,17 +1,23 @@
 body {
     background-color: #FBE9D5;
     font-size: 16px;
+    margin: 0;
 }
 
 #logo {
     width: 250px;
     max-width: 250px;
     min-width: 150px;
-    margin: 0 auto;
 }
 
 header {
     display: flex;
     justify-content: center;
     background-color: #F8BBD0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.85em;
+    font-family: 'Yeseva One';
 }
