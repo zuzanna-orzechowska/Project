@@ -34,9 +34,12 @@ p {
     font-size: 1.25em;
     font-family: 'Montserrat';
     text-align: center;
-    /* margin-left: 12px;
-    margin-right: 12px; */
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
