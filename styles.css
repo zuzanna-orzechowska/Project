@@ -34,7 +34,9 @@ p {
     font-size: 1.25em;
     font-family: 'Montserrat';
     text-align: center;
-    margin-left: 12px;
-    margin-right: 12px;
-    
+    /* margin-left: 12px;
+    margin-right: 12px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
