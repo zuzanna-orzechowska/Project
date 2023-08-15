@@ -21,6 +21,7 @@ header {
     justify-content: center;
     background-color: #F8BBD0;
     width: 100%;
+    margin-bottom: -20px;
 }
 
 h1 {
@@ -28,18 +29,61 @@ h1 {
     font-family: 'Yeseva One';
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
 
 p {
     font-size: 1.25em;
     font-family: 'Montserrat';
     text-align: center;
-    margin-left: 12px;
-    margin-right: 12px;
 }
 
 .wrapper {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
+    text-align: center;
 }
 
+hr {
+    border: 1px solid #914D2A;
+    width: 350px;
+    max-width: inherit;
+    min-width: 250px;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.polaroid {
+    box-shadow: 1px 3px 6px 3px #A1A1A1;
+    background-color: #F9F9F9;
+}
+
+
+.caption > p {
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#higher {
+    padding-bottom: 20px;
+}
+
+#lower {
+    padding-top: 20px;
+}
