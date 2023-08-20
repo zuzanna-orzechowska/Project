@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FBE9D5;
     font-size: 16px;
@@ -34,8 +38,13 @@ h1 {
 
 p {
     font-size: 1.25em;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+.form-question {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -86,4 +95,27 @@ hr {
 
 #lower {
     padding-top: 20px;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: 'Montserrat';
+}
+
+fieldset {
+    border: none;
+    background-color: rgba(248, 187, 208, 0.3);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    padding: 4px;
+}
+
+input[type="radio"] {
+    width: unset;
+    vertical-align: middle;
 }
