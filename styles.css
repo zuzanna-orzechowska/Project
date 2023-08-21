@@ -89,19 +89,19 @@ hr {
     text-align: center;
 }
 
-#higher {
+.higher {
     padding-bottom: 20px;
 }
 
-#lower {
+.lower {
     padding-top: 20px;
 }
 
 form {
-    margin: 0 auto;
-    margin-top: 40px;
     font-size: 17px;
     font-family: 'Montserrat';
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 fieldset {
@@ -112,10 +112,16 @@ fieldset {
 
 label {
     display: block;
-    padding: 4px;
+    margin: 0.5rem 0;
 }
 
-input[type="radio"] {
+input {
+    width: 150px;
+    height: 20px;
+}
+
+.inline {
     width: unset;
+    margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
