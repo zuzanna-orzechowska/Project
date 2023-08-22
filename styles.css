@@ -125,3 +125,17 @@ input {
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
+
+input[type="submit"] {
+    font-size: 17px;
+    margin: 20px auto;
+    height: 1.8em;
+    border-color: #914D2A;
+    background-color: #F9F9F9;
+}
+
+input[type="submit"]:hover {
+    background-color: #F8BBD0;
+    border-color: #F9F9F9;
+    cursor: pointer;
+}

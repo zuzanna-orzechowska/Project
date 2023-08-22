@@ -73,7 +73,7 @@
                 <h1 id="third-link">Survey Form</h1>
                 <hr>
                     <p class="higher">I prepared a short form in order to get some feedback. Take your time and fill out the survey.</p>
-                    <form action="mailto:strony.zuzanny@gmail.com" method="post">
+                    <form action="mailto:strony.zuzanny@gmail.com" method="post" enctype="text/plain">
                         <fieldset>
                             <p class="form-question">Let's introduce yourself</p>
                             <label for="name">Your name:  <input type="text" id="name" name="Name" placeholder="Click to type" required></label>
@@ -85,16 +85,16 @@
                         <fieldset>
                             <p class="form-question">In scale 1-10, how would you rate this website</p>
                             <label for="first-rate">
-                            <input type="radio" id="first-rate" name="rate" class="inline">1-2 / It really looks like a beginner's page...
+                            <input type="radio" id="first-rate" name="rate" class="inline" value="1-2">1-2 / It really looks like a beginner's page...
                             </label>
                             <label for="second-rate">
-                            <input type="radio" id="second-rate" name="rate" class="inline">3-5 / Not bad, but could've been better
+                            <input type="radio" id="second-rate" name="rate" class="inline" value="3-5">3-5 / Not bad, but could've been better
                             </label>
                             <label for="third-rate">
-                            <input type="radio" id="third-rate" name="rate" class="inline">6-8 / Great work, but still not perfect
+                            <input type="radio" id="third-rate" name="rate" class="inline" value="6-8">6-8 / Great work, but still not perfect
                             </label>
                             <label for="fourth-rate">
-                            <input type="radio" id="fourth-rate" name="rate" class="inline">9-10 / Just excellent
+                            <input type="radio" id="fourth-rate" name="rate" class="inline" value="9-10">9-10 / Just excellent
                             </label>
                             <p class="form-question">Can you argue your rate (helpful for future improvement)</p>
                             <textarea name="argument" rows="3" cols="26"></textarea>
