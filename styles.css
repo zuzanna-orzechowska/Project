@@ -139,3 +139,31 @@ input[type="submit"]:hover {
     border-color: #F9F9F9;
     cursor: pointer;
 }
+
+footer > img {
+    width: clamp(90px, 120px, 150px);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #914D2A;
+    color: #F9F9F9;
+    padding-right: 60px;
+    height: 140px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+#below-footer {
+    background-color: #6d361f;
+    display: flex;
+    justify-content: center;
+    color: #A1A1A1;
+}
