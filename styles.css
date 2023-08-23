@@ -79,8 +79,13 @@ hr {
 .polaroid {
     box-shadow: 1px 3px 6px 3px #A1A1A1;
     background-color: #F9F9F9;
+    overflow: hidden;
 }
 
+.polaroid img:hover {    /* TU OGARNĄĆ CO SIĘ STAŁO! I W HTML JESZCZE DIV NAŁOŻYĆ NA TO ŻEBY NIE WCHODZIŁO NA BIAŁE POLE Z TEKSTEM*/
+    transition: 1.2s;
+    transform: scale(1.2);
+}
 
 .caption > p {
     font-size: 17px;
