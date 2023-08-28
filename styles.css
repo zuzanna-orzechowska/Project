@@ -8,19 +8,31 @@ body {
     margin: 0;
 }
 
-#logo {
-    width: 250px;
-    max-width: 250px;
-    min-width: 150px;
+header {                                /*COŚ TUTAJ MI SIE ZBLEPCZAKOWAŁO */
+    display: flex;
+    justify-content: center;
+    background-color: #914D2A;
+    font-family: 'Montserrat', sans-serif;
+    top: 0;
 }
 
-/* nav {
-    background-color: aqua;
-    margin-bottom: -16px;
-    margin-top: -16px;
-} */
+li {
+    display: inline-block;
+    padding: 0px 60px;
+}
 
-header {
+li, a:not(#github) {
+    text-decoration: none;
+    list-style: none;
+    color: #F9F9F9;
+}                                           /*DO TĄD TEN NAVBAR */
+
+
+#logo {
+    width: clamp(150px, 250px, 250px);
+}
+
+#wide-logo {
     display: flex;
     justify-content: center;
     background-color: #F8BBD0;
@@ -34,6 +46,11 @@ h1 {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
+
+h2 {                            /*NAPIS W NAVBAR */
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -82,9 +99,9 @@ hr {
     overflow: hidden;
 }
 
-.polaroid img:hover {    /* TU OGARNĄĆ CO SIĘ STAŁO! I W HTML JESZCZE DIV NAŁOŻYĆ NA TO ŻEBY NIE WCHODZIŁO NA BIAŁE POLE Z TEKSTEM*/
+.polaroid img:hover {
     transition: 1.2s;
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 .caption > p {
