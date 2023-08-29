@@ -8,12 +8,13 @@ body {
     margin: 0;
 }
 
-header {                                /*COŚ TUTAJ MI SIE ZBLEPCZAKOWAŁO */
+nav {                                
     display: flex;
     justify-content: center;
     background-color: #914D2A;
     font-family: 'Montserrat', sans-serif;
     top: 0;
+    position: sticky;
 }
 
 li {
@@ -25,19 +26,21 @@ li, a:not(#github) {
     text-decoration: none;
     list-style: none;
     color: #F9F9F9;
-}                                           /*DO TĄD TEN NAVBAR */
+}                                           
 
+a:hover {
+    text-decoration: underline #F8BBD0 !important;
+}
 
 #logo {
     width: clamp(150px, 250px, 250px);
 }
 
-#wide-logo {
+header {
     display: flex;
     justify-content: center;
     background-color: #F8BBD0;
     width: 100%;
-    margin-bottom: -20px;
 }
 
 h1 {
