@@ -51,11 +51,6 @@ h1 {
     padding-top: 20px;
 }
 
-h2 {                            /*NAPIS W NAVBAR */
-    display: flex;
-    justify-content: center;
-}
-
 p {
     font-size: 1.25em;
     font-family: 'Montserrat', sans-serif;
